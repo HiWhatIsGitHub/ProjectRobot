@@ -3,7 +3,7 @@
 
 ## Use as Extension
 
-This repository can be added as an **extension** in MakeCode.
+This repository can be added as an **extension** in MakeCode.Don't import unless you want a remote control robot.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
