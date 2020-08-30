@@ -1,0 +1,22 @@
+{
+    "name": "ProjectRemoteRobot(PRR)",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "GHBit": "github:lzty634158/ghbit#30091afa98a5c58556b996dec246882bf8bd4fc1",
+        "SuperBit": "github:lzty634158/superbit#0a0d6cd2c18804f6b56e944d0c7ff7bd91473ec8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
