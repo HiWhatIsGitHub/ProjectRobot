@@ -30,8 +30,13 @@ radio.onReceivedValue(function (name, value) {
         SuperBit.enMotors.M1,
         -255
         )
-    } else if (name == "S") {
-        SuperBit.MotorStopAll()
+    } else {
+        SuperBit.MotorRunDual(
+        SuperBit.enMotors.M1,
+        0,
+        SuperBit.enMotors.M3,
+        0
+        )
     }
 })
 serial.writeLine("Jayden presents ProjectRobot")
